@@ -1,0 +1,54 @@
+.container {
+    max-width: 960px;
+  }
+
+  /*
+   * Custom translucent site header
+   */
+  
+  .site-header {
+    background-color: rgb(121, 158, 175);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+  }
+  .site-header a {
+    color: #2a1a1a;
+    transition: color .15s ease-in-out;
+    text-decoration: none;
+    letter-spacing:.25em
+  }
+  .site-header a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+
+  /* color of tablet on left */
+  .product-device-2 {
+    top: -25%;
+    right: auto;
+    bottom: 0;
+    left: 5%;
+    background-color: #e5e5e5;
+  }
+  
+  
+  /*
+   * Extra utilities
+   */
+  
+  .flex-equal > * {
+    flex: 1;
+  }
+  @media (min-width: 768px) {
+    .flex-md-equal > * {
+      flex: 1;
+    }
+  }
+
+
+  /* here */
+
+  header {
+    
+  }
